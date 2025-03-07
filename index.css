@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Noto Sans';
+    color: #333;
+    background-color: #f7f7f7;
+  }
+  
+
+  .header-site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #004080;
+    padding: 1rem 2rem;
+  }
+  
+  .header-site img {
+    width: 150px; 
+  }
+  
+  .header-site nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: 500;
+  }
+  
+  .header-site nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .header-site button {
+    background-color: #fff;
+    color: #004080;
+    border: 2px solid #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .header-site button:hover {
+    background-color: #004080;
+    color: #fff;
+  }
+  
+
+  .secao-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('SITE CONDOMANAGER/public/assets/images/condo_background.jfif') no-repeat center/cover;
+    height: 60vh; 
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .inicio-texto {
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .inicio-texto h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  
+  .secao-seguranca {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    background-color: #fff;
+  }
+  
+  .secao-seguranca .info {
+    flex: 1 1 300px; 
+    margin-right: 1rem;
+  }
+  
+  .secao-seguranca .info h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .secao-seguranca .info p {
+    line-height: 1.5;
+  }
+  
+  .secao-seguranca .imagem {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .secao-seguranca .imagem img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .servicos {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f0f0f0;
+  }
+  
+  .servicos h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .servicos p {
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+  
+  .servicos-botoes ul {
+    list-style: none;
+  }
+  
+  .servicos-botoes li {
+    margin-bottom: 1rem;
+  }
+  
+  .servicos-botoes li a {
+    background-color: #004080;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .servicos-botoes li a:hover {
+    background-color: #003060;
+  }
+  
+  .footer-site {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .footer-site p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  

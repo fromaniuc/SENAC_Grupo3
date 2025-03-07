@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'discord';
+    font-weight: 900;
+    src: url('../assets/fonts/discord_extrabold.woff2') format("woff2");
+}
